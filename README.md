@@ -7,6 +7,15 @@
 - [GitHub - Dados mundiais sobre Covid-19](https://github.com/CSSEGISandData/COVID-19)
 - [GitHub - Dados sobre Covid-19 em Portugal](https://github.com/jgrocha/covid-pt)
 
+## Dependencias
+
+- numpy
+- pandas
+- matplotlib.pyplot
+- seaborn
+- pycountry_convert
+- sklearn
+
 ## Objetivos
 
 Neste projeto pretende-se:
