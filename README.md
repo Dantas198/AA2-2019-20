@@ -36,6 +36,34 @@ Para a primeira previsão foi usado um regressão linear, obtendo as seguintes p
 
 ![regressao_linear](images/regressao_linear.png)
 
+## Pequena demonstração de cada Dataset
+
+### Kaggle - Covid-19 global forecasting competition
+
+| Id | Province_State | Country_Region | Date | ConfirmedCases | Fatalities |
+|----|----------------|----------------|------|----------------|------------|
+| 23008 | ----- | Portugal | 2020-04-24 | 22797.0 | 854.0 |
+| 23009 | ----- | Portugal | 2020-04-25 | 23392.0 | 880.0 |
+| 23010 | ----- | Portugal | 2020-04-26 | 23864.0 | 903.0 |
+| 23011 | ----- | Portugal | 2020-04-27 | 24027.0 | 928.0 |
+| 23012 | ----- | Portugal | 2020-04-28 | 24322.0 | 948.0 |
+| 23013 | ----- | Portugal | 2020-04-29 | 24505.0 | 973.0 |
+| 23014 | ----- | Portugal | 2020-04-30 | 25045.0 | 989.0 |
+| 23015 | ----- | Portugal | 2020-05-01 | 25351.0 | 1007.0 |
+
+### Kaggle - Dados demográficos de países
+
+| Rank | Country (or dependent territory) | Area km2 | Area mi2 | Population | Density pop./km2 | Density pop./mi2 | Date | Population source |
+|------|----------------------------------|----------|----------|------------|------------------|------------------|------|-------------------|
+| 73 | Portugal | 92,090 | 35,556 | 1,02,76,617 | 112 | 290 | "December 31, 2018" | Official estimate |
+
+### GitHub - Dados mundiais sobre Covid-19
+
+| Province/State | Country/Region | Lat | Long | 1/22/20 | ... | 4/30/20 | 5/1/20 | 5/2/20 |
+|----------------|----------------|-----|------|---------|-----|---------|--------|--------|
+| ----- | Portugal | 39.3999 | -8.2245 | 0 | ... | 25045 | 25351 | 25190 |
+
+
 ## Grupo
 - Marco Dantas, A81736
 - Luís Macedo, A80494
