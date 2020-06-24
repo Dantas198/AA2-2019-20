@@ -46,15 +46,15 @@
 
 ## Organização do repositório
 
-- **data**: ficheiros csv gerados;
-- **AA2-Covid-19-Parte I**:
+- [data](https://github.com/FallenFoil/AA2-2019-20/blob/master/data): ficheiros csv gerados;
+- [AA2-Covid-19-Parte I](https://github.com/FallenFoil/AA2-2019-20/blob/master/AA2-Covid-19-Parte-I.ipynb):
   - Exploração dos dados
   - Otimização dos atributos de *input*;
-- **AA2-Covid-19-Parte II**:
+- [AA2-Covid-19-Parte II](https://github.com/FallenFoil/AA2-2019-20/blob/master/AA2-Covid-19-Parte-II.ipynb):
   - Uso de métodos tradicionais de *Machine Learning*;
-- **AA2-Covid-19-Parte III**:
+- [AA2-Covid-19-Parte III](https://github.com/FallenFoil/AA2-2019-20/blob/master/AA2-Covid-19-Parte-III.ipynb):
   - Agrupamento de dados de países semelhantes a Portugal;
-- **AA2-Covid-19-Parte IV**:
+- [AA2-Covid-19-Parte IV](https://github.com/FallenFoil/AA2-2019-20/blob/master/AA2-Covid-19-Parte-IV.ipynb):
   - Uso de *Deep Learning*(*LSTM*);
 
 ## Objetivos
