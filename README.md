@@ -106,7 +106,7 @@ PRT | Europe | Portugal | 2020-06-24 | 39737.0 | 345.0 | 1540.0 | 6.0 | 3897.042
 | 24-06-2020 | 24-06-2020 00:00 | 40104 | 17339 | 4042 | 17527 | 406 | 552 | 146 | 92 |  | 367 | 26083 | 1543 | 429 | 73 | 1586 | 368967 | 30935.0 | 327277 |  | 767 | 509 | 581 | 846 | 723 | 3112 | 2678 | 3359 | 2970 | 3763 | 2957 | 3724 | 2665 | 2234 | 1945 | 1552 | 1387 | 3428 | 1641 | 0.37 | 0.28 | 0.1 | 0.2 | 0.21 | 0.15 | 22540 | 17564 | 814 | 248 | 449 | 2 | 15 | 15 | 0  | --- | --- | --- | --- | --- | --- | --- | --- | --- | 0 | 0 | 0 | 0 | 1 | 1 | 1 | 1 | 8 | 10 | 15 | 34 | 46 | 95 | 119 | 179 | 587 | 446 | 777 | 766 | 17 | 13 |
 
 
-### portugal_group_dataset.csv
+### [portugal_group_dataset.csv](https://github.com/FallenFoil/AA2-2019-20/blob/master/data/portugal_group_dataset.csv)
 
 |   | location | new_cases_per_million | new_deaths_per_million |
 |---|----------|-----------------------|------------------------|
@@ -115,7 +115,7 @@ PRT | Europe | Portugal | 2020-06-24 | 39737.0 | 345.0 | 1540.0 | 6.0 | 3897.042
 | 2 | Austria  | 2.7760000000000002    | 0.0                    |
 | 3 | Austria  | 0.33299999999999996   | 0.0                    |
 
-### modified_dataset.csv
+### [modified_dataset.csv](https://github.com/FallenFoil/AA2-2019-20/blob/master/data/modified_dataset.csv)
 
 |  | confirmados_novos | internados | internados_uci | lab | vigilancia | obitos_novos | suspeitos_novos | lab_lag_1 | lab_lag_2 | suspeitos_novos_lag_1 | suspeitos_novos_lag_2 | suspeitos_novos_lag_3 | suspeitos_novos_lag_4 | suspeitos_novos_lag_5 | suspeitos_novos_lag_6 | suspeitos_novos_lag_7 | suspeitos_novos_lag_8 | vigilancia_lag_1 | vigilancia_lag_2 | vigilancia_lag_3 | vigilancia_lag_4 | vigilancia_lag_5 | vigilancia_lag_6 | vigilancia_lag_7 | vigilancia_lag_8 | obitos_novos_lag_1 | obitos_novos_lag_2 | obitos_novos_lag_3 | obitos_novos_lag_4 | obitos_novos_lag_5 | obitos_novos_lag_6 | obitos_novos_lag_7 | obitos_novos_lag_8 | confirmados_novos_lag_1 | confirmados_novos_lag_2 | confirmados_novos_lag_3 | confirmados_novos_lag_4 | confirmados_novos_lag_5 | confirmados_novos_lag_6 | confirmados_novos_lag_7 | confirmados_novos_lag_8 | obitos_novos_trend_15 | obitos_novos_trend_16 | obitos_novos_trend_17 | obitos_novos_trend_18 | obitos_novos_trend_19 | obitos_novos_trend_20 | obitos_novos_trend_21 | obitos_novos_trend_22 | obitos_novos_trend_23 | obitos_novos_trend_24 | obitos_novos_trend_25 | obitos_novos_trend_26 | obitos_novos_trend_27 | obitos_novos_trend_28 | obitos_novos_trend_29 | obitos_novos_trend_30 | obitos_novos_trend_31 | confirmados_novos_trend_15 | confirmados_novos_trend_16 | confirmados_novos_trend_17 | confirmados_novos_trend_18 | confirmados_novos_trend_19 | confirmados_novos_trend_20 | confirmados_novos_trend_21 | confirmados_novos_trend_22 | confirmados_novos_trend_23 | confirmados_novos_trend_24 | confirmados_novos_trend_25 | confirmados_novos_trend_26 | confirmados_novos_trend_27 | confirmados_novos_trend_28 | confirmados_novos_trend_29 | confirmados_novos_trend_30 | confirmados_novos_trend_31 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
