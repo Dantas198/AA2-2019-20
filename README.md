@@ -2,8 +2,21 @@
 
 ## Índice
 
+- [Contituição do Grupo](#Contituição-do-Grupo)
+- [Datasets](#Datasets)
+  - [Publico](#Publico)
+  - [Customizados](#Customizados)
+- [Dependencias](#Dependencias)
+- [Organização do repositório](#Organização-do-repositório)
+- [Objetivos](#Objetivos)
+- [Sumario](#Sumario)
+- [Pequena demonstração de cada Dataset](#Pequena-demonstração-de-cada-Dataset)
+  - [GitHub - Dados mundiais sobre Covid-19](#GitHub---Dados-mundiais-sobre-Covid-19)
+  - [GitHub - Dados sobre Covid-19 em Portugal](#GitHub---Dados-sobre-Covid-19-em-Portugal)
+  - [portugal_group_dataset.csv](#portugal_group_dataset.csv)
+  - [modified_dataset.csv](#modified_dataset.csv)
 
-## Grupo
+## Contituição do Grupo
 - Marco Dantas, A81736
 - Luís Macedo, A80494
 
