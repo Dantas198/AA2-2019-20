@@ -6,7 +6,7 @@
 - [Datasets](#Datasets)
   - [Publico](#Publico)
   - [Customizados](#Customizados)
-- [Dependencias](#Dependencias)
+- [Dependências](#Dependências)
 - [Organização do repositório](#Organização-do-repositório)
 - [Objetivos](#Objetivos)
 - [Sumario](#Sumario)
