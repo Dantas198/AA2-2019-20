@@ -82,10 +82,6 @@ De seguida, é preparado e analisado os dados sobre os sintomas, concluindo que 
 
 Para melhor previsões, foi introduzido o conceito de **lags**, sendo usado logo de seguida.
 
-Para a primeira previsão foi usado um regressão linear, obtendo as seguintes previsões:
-
-![regressao_linear](images/regressao_linear.png)
-
 ## Pequena demonstração de cada Dataset
 
 ### [GitHub - Dados mundiais sobre Covid-19](https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv)
