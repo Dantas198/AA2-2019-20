@@ -1,20 +1,48 @@
 # AA 2019-2020
 
+## Índice
+
+
+## Grupo
+- Marco Dantas, A81736
+- Luís Macedo, A80494
+
 ## Datasets
 
-- [Kaggle - Covid-19 global forecasting competition](https://www.kaggle.com/c/covid19-global-forecasting-week-4)
-- [Kaggle - Dados demográficos de países](https://www.kaggle.com/dumbgeek/countries-dataset-2020)
-- [GitHub - Dados mundiais sobre Covid-19](https://github.com/CSSEGISandData/COVID-19)
-- [GitHub - Dados sobre Covid-19 em Portugal](https://github.com/jgrocha/covid-pt)
+### Publico
 
-## Dependencias
+- [GitHub - Dados mundiais sobre Covid-19](https://github.com/owid/covid-19-data)
+- [GitHub - Dados sobre Covid-19 em Portugal](https://github.com/dssg-pt/covid19pt-data)
+
+### Customizados
+
+- [Dados com os input relevantes](https://github.com/FallenFoil/AA2-2019-20/blob/master/data/modified_dataset.csv)
+- [Dados com confirmados e óbitos de Portugal e outros países parecidos](https://github.com/FallenFoil/AA2-2019-20/blob/master/data/portugal_group_dataset.csv)
+
+## Dependências
 
 - numpy
 - pandas
-- matplotlib.pyplot
-- seaborn
-- pycountry_convert
+- matplotlib
+- intertools
 - sklearn
+- seaborn
+- math
+- keras
+- tensorflow
+
+## Organização do repositório
+
+- **data**: ficheiros csv gerados;
+- **AA2-Covid-19-Parte I**:
+  - Exploração dos dados
+  - Otimização dos atributos de *input*;
+- **AA2-Covid-19-Parte II**:
+  - Uso de métodos tradicionais de *Machine Learning*;
+- **AA2-Covid-19-Parte III**:
+  - Agrupamento de dados de países semelhantes a Portugal;
+- **AA2-Covid-19-Parte IV**:
+  - Uso de *Deep Learning*(*LSTM*);
 
 ## Objetivos
 
@@ -47,32 +75,35 @@ Para a primeira previsão foi usado um regressão linear, obtendo as seguintes p
 
 ## Pequena demonstração de cada Dataset
 
-### Kaggle - Covid-19 global forecasting competition
+### GitHub - Dados mundiais sobre Covid-19
 
-| Id | Province_State | Country_Region | Date | ConfirmedCases | Fatalities |
-|----|----------------|----------------|------|----------------|------------|
-| 23008 | ----- | Portugal | 2020-04-24 | 22797.0 | 854.0 |
-| 23009 | ----- | Portugal | 2020-04-25 | 23392.0 | 880.0 |
-| 23010 | ----- | Portugal | 2020-04-26 | 23864.0 | 903.0 |
-| 23011 | ----- | Portugal | 2020-04-27 | 24027.0 | 928.0 |
-| 23012 | ----- | Portugal | 2020-04-28 | 24322.0 | 948.0 |
-| 23013 | ----- | Portugal | 2020-04-29 | 24505.0 | 973.0 |
-| 23014 | ----- | Portugal | 2020-04-30 | 25045.0 | 989.0 |
-| 23015 | ----- | Portugal | 2020-05-01 | 25351.0 | 1007.0 |
-
-### Kaggle - Dados demográficos de países
-
-| Rank | Country (or dependent territory) | Area km2 | Area mi2 | Population | Density pop./km2 | Density pop./mi2 | Date | Population source |
-|------|----------------------------------|----------|----------|------------|------------------|------------------|------|-------------------|
-| 73 | Portugal | 92,090 | 35,556 | 1,02,76,617 | 112 | 290 | "December 31, 2018" | Official estimate |
+| iso_code | continent | location | date       | total_cases | new_cases | total_deaths | new_deaths | total_cases_per_million | new_cases_per_million | ... |
+|----------|-----------|----------|------------|-------------|-----------|--------------|------------|-------------------------|-----------------------| ... |
+| PRT      | Europe    | Portugal | 2020-06-21 | 38841.0     | 377.0     | 1528.0       | 1.0        | 3809.171                | 36.973                | ... |
+| PRT      | Europe    | Portugal | 2020-06-22 | 39133.0     | 292.0     | 1530.0       | 2.0        | 3837.808                | 28.637                | ... |
+| PRT      | Europe    | Portugal | 2020-06-23 | 39392.0     | 259.0     | 1534.0       | 4.0        | 3863.208                | 25.4                  | ... |
+| PRT      | Europe    | Portugal | 2020-06-24 | 39737.0     | 345.0     | 1540.0       | 6.0        | 3897.042                | 33.834                | ... |
 
 ### GitHub - Dados mundiais sobre Covid-19
 
-| Province/State | Country/Region | Lat | Long | 1/22/20 | ... | 4/30/20 | 5/1/20 | 5/2/20 |
-|----------------|----------------|-----|------|---------|-----|---------|--------|--------|
-| ----- | Portugal | 39.3999 | -8.2245 | 0 | ... | 25045 | 25351 | 25190 |
+| data       | data_dados       | confirmados | confirmados_arsnorte | confirmados_arscentro | confirmados_arslvt | confirmados_arsalentejo | confirmados_arsalgarve | ... |
+| 20-06-2020 | 20-06-2020 00:00 | 38841       | 17242                | 3966                  | 16537              | 363                     | 499                    | ... |
+| 21-06-2020 | 21-06-2020 00:00 | 39133       | 17249                | 3991                  | 16762              | 374                     | 521                    | ... |
+| 22-06-2020 | 22-06-2020 00:00 | 39392       | 17320                | 4005                  | 16926              | 376                     | 529                    | ... |
+| 23-06-2020 | 23-06-2020 00:00 | 39737       | 17329                | 4014                  | 17225              | 397                     | 536                    | ... |
+| 24-06-2020 | 24-06-2020 00:00 | 40104       | 17339                | 4042                  | 17527              | 406                     | 552                    | ... |
 
 
-## Grupo
-- Marco Dantas, A81736
-- Luís Macedo, A80494
+### portugal_group_dataset.csv
+
+|   | location | new_cases_per_million | new_deaths_per_million |
+| 0 | Austria  | 1.3319999999999999    | 0.0                    |
+| 1 | Austria  | 3.6639999999999997    | 0.0                    |
+| 2 | Austria  | 2.7760000000000002    | 0.0                    |
+| 3 | Austria  | 0.33299999999999996   | 0.0                    |
+
+### modified_dataset.csv
+
+|     | confirmados_novos | internados | internados_uci | lab    | vigilancia | obitos_novos | suspeitos_novos | lab_lag_1 | lab_lag_2 | ... |
+| 112 | 259               | 424.0      | 72.0           | 1782.0 | 30956.0    | 4.0          | 1172.0          | 1826.0    | 1771.0    | ... |
+| 113 | 345               | 441.0      | 72.0           | 1759.0 | 30248.0    | 6.0          | 2472.0          | 1782.0    | 1826.0    | ... |
