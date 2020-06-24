@@ -78,7 +78,7 @@ Para a primeira previsão foi usado um regressão linear, obtendo as seguintes p
 ### GitHub - Dados mundiais sobre Covid-19
 
 | iso_code | continent | location | date       | total_cases | new_cases | total_deaths | new_deaths | total_cases_per_million | new_cases_per_million | ... |
-|----------|-----------|----------|------------|-------------|-----------|--------------|------------|-------------------------|-----------------------| ... |
+|----------|-----------|----------|------------|-------------|-----------|--------------|------------|-------------------------|-----------------------|-----|
 | PRT      | Europe    | Portugal | 2020-06-21 | 38841.0     | 377.0     | 1528.0       | 1.0        | 3809.171                | 36.973                | ... |
 | PRT      | Europe    | Portugal | 2020-06-22 | 39133.0     | 292.0     | 1530.0       | 2.0        | 3837.808                | 28.637                | ... |
 | PRT      | Europe    | Portugal | 2020-06-23 | 39392.0     | 259.0     | 1534.0       | 4.0        | 3863.208                | 25.4                  | ... |
@@ -87,6 +87,7 @@ Para a primeira previsão foi usado um regressão linear, obtendo as seguintes p
 ### GitHub - Dados mundiais sobre Covid-19
 
 | data       | data_dados       | confirmados | confirmados_arsnorte | confirmados_arscentro | confirmados_arslvt | confirmados_arsalentejo | confirmados_arsalgarve | ... |
+|------------|------------------|-------------|----------------------|-----------------------|--------------------|-------------------------|------------------------|-----|
 | 20-06-2020 | 20-06-2020 00:00 | 38841       | 17242                | 3966                  | 16537              | 363                     | 499                    | ... |
 | 21-06-2020 | 21-06-2020 00:00 | 39133       | 17249                | 3991                  | 16762              | 374                     | 521                    | ... |
 | 22-06-2020 | 22-06-2020 00:00 | 39392       | 17320                | 4005                  | 16926              | 376                     | 529                    | ... |
@@ -97,6 +98,7 @@ Para a primeira previsão foi usado um regressão linear, obtendo as seguintes p
 ### portugal_group_dataset.csv
 
 |   | location | new_cases_per_million | new_deaths_per_million |
+|---|----------|-----------------------|------------------------|
 | 0 | Austria  | 1.3319999999999999    | 0.0                    |
 | 1 | Austria  | 3.6639999999999997    | 0.0                    |
 | 2 | Austria  | 2.7760000000000002    | 0.0                    |
@@ -105,5 +107,6 @@ Para a primeira previsão foi usado um regressão linear, obtendo as seguintes p
 ### modified_dataset.csv
 
 |     | confirmados_novos | internados | internados_uci | lab    | vigilancia | obitos_novos | suspeitos_novos | lab_lag_1 | lab_lag_2 | ... |
+|-----|-------------------|------------|----------------|--------|------------|--------------|-----------------|-----------|-----------|-----|
 | 112 | 259               | 424.0      | 72.0           | 1782.0 | 30956.0    | 4.0          | 1172.0          | 1826.0    | 1771.0    | ... |
 | 113 | 345               | 441.0      | 72.0           | 1759.0 | 30248.0    | 6.0          | 2472.0          | 1782.0    | 1826.0    | ... |
